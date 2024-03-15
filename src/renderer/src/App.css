@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span {
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+input {
+    outline: none;
+    border: none;
+}
+
+
+.container {
+    background: linear-gradient(to bottom,#fff , rgb(84, 192, 255));
+    width: 100vw;
+    height: 100vh;
+}
+
+.login{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255 255 255 / 40%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(68 193 241 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login > p {
+    position: absolute;
+    top: -50px;
+    color: #6e7d8b;
+    font-weight: bold;
+}
+.login h3{
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0 0 4px rgb(13 139 247 / 60%);
+}
+
+.login ul {
+    margin-top:25px;
+}
+.login ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.login ul li span {
+    color: rgba(53, 53, 53, 0.527);
+    font-size: 14px;
+}
+
+.login ul li span::after{
+    content: '：';
+}
+
+.login ul li input {
+    flex: 1;
+    background-color: transparent;
+    color: rgb(22, 22, 22);
+    font-size: 16px;
+    border-bottom: 2px solid #90e0ff;
+    padding: 5px 10px;
+}
+
+
+.login ul li input::placeholder{
+    color: rgb(103, 144, 172);
+    font-size: 12px;
+}
+.login button {
+    cursor: pointer;
+    margin:  auto;
+    outline: none;
+    border: none;
+    background-color: #488fac;
+    box-shadow: 0 0 2px aqua;
+    color: #fff;
+    padding: 10px 20px;
+}
